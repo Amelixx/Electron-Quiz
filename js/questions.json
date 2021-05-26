@@ -1,0 +1,88 @@
+{
+  "CPU": [
+    ["What is the first instruction in the Fetch Decode Execute Cycle?", 
+    ["The Program Counter is overwritten with the address of the next instruction to be fetched.", 
+      "The MAR is overwritten with the current instruction.",
+      "The Control unit fetches the instruction from main memory.",
+      "The Program Counter increments by 1."]],
+
+    ["What does 'ALU' stand for?", 
+    ["Arithmetic Logic Unit", 
+    "Arithmetic Loader Unit",
+    "Advanced Logic Unit",
+    "Accumulative Load Unit"]],
+
+    ["Describe the function of the ALU. (Arithmetic Logic Unit)", 
+    ["Performs arithmetic and makes logical decisions, such as comparing or adding values.",
+    "Acts as a buffer and accumulates various calculations to be used later.",
+    "Load instructions from main memory."]],
+
+    ["There are three buses between the CPU and main memory. The Control Bus, Data Bus.. and..?", 
+    ["Address Bus", 
+    "Arithmetic Bus",
+    "Instruction Bus",
+    "Logic Bus"]],
+
+    ["Which of these buses is used first in the Fetch-Decode-Execute Cycle?", 
+    ["Address Bus",
+    "Data Bus",
+    "Control Bus"]],
+
+    ["Describe the Address Bus.", 
+    ["Carries addresses of data in the MAR from the processor to the memory. One way.",
+    "Carries addresses of data in the MAR from the processor to the memory, and vice versa.",
+    "Carries instructions from the RAM to the CPU, frequently used by the MDR. Bi-directional.",
+    "Controls the sending and receiving of various data addresses within the processor."]]
+  ],
+
+  "numberSystems": [
+    ["How many characters are used in hexadecimal? (Base ?)", 
+    "16"],
+
+    ["Convert 11110000 (Base 2) to Hexadecimal (Base 16).", 
+    "F0"],
+
+    ["Convert 1100001 (Base 2) to decimal (Base 10).", 
+    "97"],
+
+    ["Convert 99 (Base 10) to Hexadecimal (Base 16).", 
+    ["63",
+    "9A",
+    "99",
+    "FF"]]
+  ],
+  "inputOutputStorage": [
+    ["Which of the following is NOT an optical storage Device?", 
+    ["SSD",
+    "CD-ROM",
+    "DVD-RW",
+    "Blu-Ray"]],
+
+    ["Which of the following is NOT an electronic storage device?", 
+    ["HDD",
+    "SSD",
+    "Flash",
+    "USB Drive"]],
+
+    ["Which of these storage devices are volatile?", 
+    ["RAM",
+    "USB Drive",
+    "ROM",
+    "All three"]],
+
+    ["What does ROM stand for?", 
+    ["Read Only Memory",
+    "Really Oversized Memory",
+    "Random Only Memory"]],
+
+    ["What does RAM stand for?", 
+    ["Random Access Memory",
+    "Random Ask Memory",
+    "Read Access Memory"]],
+
+    ["Which of the following shows the correct order of storage size (smallest-largest)", 
+    ["Floppy Disk, CD-ROM, DVD",
+    "CD-ROM, DVD, Floppy Disk",
+    "DVD, CD-ROM, Floppy Disk"]]
+  ]
+}

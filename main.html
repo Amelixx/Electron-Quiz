@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="./js/menu.js"></script>
+    <title>Epic Computer Science Quiz</title>
+</head>
+<body onload="load()">
+    <center>
+    <div class="title">
+        <h1 id="title">Epic Computer Science Quiz</h1>
+    </div>
+
+    <div> 
+        <ul id="buttons">
+            <li><a href="html/cpu.html">The CPU</a><p id="cpu"></p></li>
+            <li><a href="html/numberSystems.html">Number Systems</a><p id="numberSystems"></p></li>
+            <li><a href="html/inputOutputStorage.html">Input, Output, and Storage</a><p id="inputOutputStorage"></p></li>
+            <li><a class="exit" onclick="exit()" href="#">Exit</a></li>
+            <li><a class="exit" id="deleteButton" onclick="clearData()" href="#">Delete High Scores</a></li>
+        </ul>
+    </div>
+
+    <div class="pro-tip">
+        <p>Created by Arun "Rubix" Thompson earlier than needed because I couldn't read an email</p>
+    </div>
+    </center>
+</body>
+
+</html>

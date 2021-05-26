@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #202225;
+    color: #dedede;
+}
+
+.title {
+    color: #dedede;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#buttons {
+    list-style: none;
+}
+li {
+    margin: 20px 0px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+    color: #dedede;
+    background-color:#16181a;
+    padding: 10px 30px;
+    text-align: left;
+    width: 400px;
+    display: block;
+}
+
+.exit {
+    margin-top: 60px;
+    background-color: #2d0c0c;
+}
+
+#deleteButton {
+    margin: 0px;
+}
+
+#buttons p {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    width: 400px;
+    padding-left: 10px;
+}
+
+a:hover {
+    transition: background-color .3s ease-in-out;
+    background-color: #590404;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+}
+
+.questionCount {
+    width: 100%;
+    background-color: #16181a;
+    color: #dedede;
+    font-family: 'Indie Flower', cursive;
+    position: fixed;
+    bottom: 23px;
+    opacity: 0.7;
+    border-bottom: #27292b 1px solid;
+}
+
+.pro-tip {
+    width: 100%;
+    background-color: #16181a;
+    color: #dedede;
+    font-family: 'Indie Flower', cursive;
+    position: fixed;
+    bottom: 0px;
+    opacity: 0.7;
+}
+
+.questionContent {
+    width: 80%;
+}
+
+.questionContent p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#answerSpace {
+    font-family: 'Indie Flower', cursive;
+}
+
+#answerSpace a {
+    text-align: center;
+}
+
+#answerSpace ul li a {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.red {
+    color: #860c0c;
+}
+
+.green {
+    color: #005c00;
+}
+
+input {
+    background-color: #2F3136;
+    color: #D7D8D5;
+    border: 3px solid #191B1D;
+    margin-top: 15px;
+    width: 400px;
+}
+
+input:focus {
+    outline: none;
+}
